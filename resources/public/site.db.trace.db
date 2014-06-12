@@ -1,0 +1,24 @@
+06-12 20:13:25 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "MATCHS" not found; SQL statement:
+SELECT "MATCHS".* FROM "MATCHS" WHERE ("MATCHS"."DATE" <= NOW()) ORDER BY "MATCHS"."DATE" DESC [42102-175]
+06-12 20:16:01 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "MATCHS" not found; SQL statement:
+SELECT "MATCHS".* FROM "MATCHS" WHERE ("MATCHS"."DATE" <= NOW()) ORDER BY "MATCHS"."DATE" DESC [42102-175]
+06-12 21:20:56 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "MATCHS" not found; SQL statement:
+SELECT "MATCHS".* FROM "MATCHS" WHERE ("MATCHS"."DATE" <= NOW()) ORDER BY "MATCHS"."DATE" DESC [42102-175]
+06-12 21:20:58 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "MATCHS" not found; SQL statement:
+SELECT "MATCHS".* FROM "MATCHS" WHERE ("MATCHS"."DATE" <= NOW()) ORDER BY "MATCHS"."DATE" DESC [42102-175]
+06-12 21:21:38 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "MATCHS" not found; SQL statement:
+SELECT "MATCHS".* FROM "MATCHS" WHERE ("MATCHS"."DATE" <= NOW()) ORDER BY "MATCHS"."DATE" DESC [42102-175]
+06-12 21:21:56 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "MATCHS" not found; SQL statement:
+SELECT "MATCHS".* FROM "MATCHS" WHERE ("MATCHS"."DATE" <= NOW()) ORDER BY "MATCHS"."DATE" DESC [42102-175]
+06-12 21:22:14 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "MATCHS" not found; SQL statement:
+SELECT "MATCHS".* FROM "MATCHS" WHERE ("MATCHS"."DATE" <= NOW()) ORDER BY "MATCHS"."DATE" DESC [42102-175]
+06-12 21:22:17 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "MATCHS" not found; SQL statement:
+SELECT "MATCHS".* FROM "MATCHS" WHERE ("MATCHS"."DATE" <= NOW()) ORDER BY "MATCHS"."DATE" DESC [42102-175]

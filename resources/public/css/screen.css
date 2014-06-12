@@ -1,0 +1,21 @@
+html,
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.navbar-inverse {
+  background-image: none;
+  background-color: #00923F;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+  background-image: none;
+  background-color: #28166F;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+  font-weight: bold;
+  color: #F8C300;
+}
