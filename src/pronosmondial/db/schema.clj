@@ -42,6 +42,8 @@
       [:id "int(10) PRIMARY KEY AUTO_INCREMENT"]
       [:first_team "references teams (id)"]
       [:second_team "references teams (id)"]
+      [:first_team_score "integer"]
+      [:second_team_score "integer"]
       [:date "date"]
       [:description "varchar(50)"])))
 

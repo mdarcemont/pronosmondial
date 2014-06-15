@@ -36,12 +36,12 @@
       :first_team_name (get (get-team (get % :first_team)) :name)
       :second_team_name (get (get-team (get % :second_team)) :name))
        (select matchs
-                 (where {:date [<= (sqlfn now)]})
+                 (where {:date [>= (sqlfn now)]})
                  (order :date :DESC))))
 
 (defn get-past-matchs []
   (select matchs
-                 (where {:date [> (sqlfn now)]})
+                 (where {:date [< (sqlfn now)]})
                  (order :date :DESC)))
 
 
